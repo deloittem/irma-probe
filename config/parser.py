@@ -58,6 +58,7 @@ template_probe_config = {
     'ftp_brain': [
         ('host', TemplatedConfiguration.string, None),
         ('port', TemplatedConfiguration.integer, 22),
+        ('auth', TemplatedConfiguration.string, "password"),
         ('username', TemplatedConfiguration.string, None),
         ('password', TemplatedConfiguration.string, None),
     ],
